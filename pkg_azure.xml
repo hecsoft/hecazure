@@ -4,10 +4,10 @@
 	<author>Hervé CYR</author>
 	<creationDate>Feb 2017</creationDate>
 	<packagename>azure</packagename>
-	<version>1.0.0</version>
-	<url>http://joomla.hecsoft.net/</url>
+	<version>0.0.1</version>
+	<url></url>
 	<packager>Hervé CYR</packager>
-	<packagerurl>http://joomla.hecsoft.net/</packagerurl>
+	<packagerurl></packagerurl>
 	<description>Plugins to allow User to connect with Azure/O365 Account</description>
 	<!--<update>http://www.updateurl.com/update</update>-->
 	<!--<scriptfile>pkg_script.php</scriptfile>-->

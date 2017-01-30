@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>contact@hecsoft.net</authorEmail>
 	<authorUrl>joomla.hecsoft.net</authorUrl>
-	<version>1.0.0</version>
+	<version>0.0.1</version>
 	<description>PLG_AZURE_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="azure">azure.php</filename>
@@ -16,6 +16,8 @@
 	<languages>
 		<language tag="en-GB">en-GB.plg_authentication_azure.ini</language>
 		<language tag="en-GB">en-GB.plg_authentication_azure.sys.ini</language>
+		<language tag="fr-FR">fr-FR.plg_authentication_azure.ini</language>
+		<language tag="fr-FR">fr-FR.plg_authentication_azure.sys.ini</language>
 	</languages>
 	<config>
 		<fields name="params">
