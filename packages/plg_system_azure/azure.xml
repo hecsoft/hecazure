@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+	<name>plg_system_azure</name>
+	<author>Hervé CYR</author>
+	<creationDate>Feb 2017</creationDate>
+	<copyright>Copyright (C) 2005 - 2017 Hervé CYR All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>contact@hecsoft.net</authorEmail>
+	<authorUrl>joomla.hecsoft.net</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_AZURE_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="azure">azure.php</filename>
+	</files>
+	<!--<languages>
+		<language tag="en-GB">en-GB.plg_system_azure.ini</language>
+		<language tag="en-GB">en-GB.plg_system_azure.sys.ini</language>
+	</languages>-->
+</extension>

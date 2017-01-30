@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="authentication" method="upgrade">
+	<name>plg_authentication_azure</name>
+	<author>Hervé CYR</author>
+	<creationDate>February 2017</creationDate>
+	<copyright>Copyright (C) 2005 - 2017 Hervé CYR All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>contact@hecsoft.net</authorEmail>
+	<authorUrl>joomla.hecsoft.net</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_AZURE_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="azure">azure.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_authentication_azure.ini</language>
+		<language tag="en-GB">en-GB.plg_authentication_azure.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+				<field name="ApplicationID" type="text"
+					default=""  
+					description="PLG_AZURE_FIELD_APPID_DESC"
+					label="PLG_AZURE_FIELD_APPID_LABEL"
+				/>
+				<field name="ApplicationSecret" type="text"
+					default=""
+					description="PLG_AZURE_FIELD_APPSECRET_DESC"
+					label="PLG_AZURE_FIELD_APPSECRET_LABEL"
+				/>
+						
+
+				<field name="DirectoryID" type="text"
+					description="PLG_AZURE_FIELD_DIRECTORYID_DESC"
+					label="PLG_AZURE_FIELD_DIRECTORYID_LABEL"
+					default=""
+				/>
+
+				<field name="ApplicationIDUri" type="text"
+					default="1"
+					description="PLG_AZURE_FIELD_APPIDURI_DESC"
+					label="PLG_AZURE_FIELD_APPIDURI_LABEL"
+				/>
+				<field
+					name="backendLogin"
+					type="radio"
+					label="PLG_AZURE_FIELD_BACKEND_LOGIN_LABEL"
+					description="PLG_AZURE_FIELD_BACKEND_LOGIN_DESC"
+					default="0"
+					class="btn-group btn-group-yesno"
+				>
+					<option value="1">JENABLED</option>
+					<option value="0">JDISABLED</option>
+				</field>
+				<field
+					name="sslverifypeer"
+					type="radio"
+					label="PLG_AZURE_FIELD_SSL_VERIFYPEER_LABEL"
+					description="PLG_AZURE_FIELD_SSL_VERIFYPEER_DESC"
+					default="1"
+					class="btn-group btn-group-yesno"
+				>
+					<option value="1">JENABLED</option>
+					<option value="0">JDISABLED</option>
+				</field>
+				
+
+				<field
+					name="domain"
+					type="text"
+					label="PLG_AZURE_FIELD_DOMAIN_LABEL"
+					description="PLG_AZURE_FIELD_DOMAIN_DESC"
+					
+				/>
+				<field name="group" type="usergroup" label="PLG_AZURE_FIELD_GROUP_LABEL"
+						desc="PLG_AZURE_FIELD_GROUP_DESC" multiple="true"/>
+						
+				<field
+					name="createuser"
+					type="radio"
+					label="PLG_AZURE_FIELD_CREATEUSER_LABEL"
+					description="PLG_AZURE_FIELD_CREATEUSER_DESC"
+					default="0"
+					class="btn-group btn-group-yesno"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field
+					name="debug"
+					type="radio"
+					label="PLG_AZURE_FIELD_DEBUG_LABEL"
+					description="PLG_AZURE_FIELD_DEBUG_DESC"
+					default="0"
+					class="btn-group btn-group-yesno"
+				>
+					<option value="1">JENABLED</option>
+					<option value="0">JDISABLED</option>
+				</field>
+			</fieldset>
+
+		</fields>
+	</config>
+</extension>

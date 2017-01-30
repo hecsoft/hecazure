@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5" method="upgrade">
+	<name>Azure Plugin Package</name>
+	<author>Hervé CYR</author>
+	<creationDate>Feb 2017</creationDate>
+	<packagename>azure</packagename>
+	<version>1.0.0</version>
+	<url>http://joomla.hecsoft.net/</url>
+	<packager>Hervé CYR</packager>
+	<packagerurl>http://joomla.hecsoft.net/</packagerurl>
+	<description>Plugins to allow User to connect with Azure/O365 Account</description>
+	<!--<update>http://www.updateurl.com/update</update>-->
+	<!--<scriptfile>pkg_script.php</scriptfile>-->
+	<files folder="packages">
+		<file type="plugin" id="azure" group="authentication">plg_authentication_azure.zip</file>
+		<file type="plugin" id="azure" group="system">plg_system_azure.zip</file>
+	</files>
+</extension>
